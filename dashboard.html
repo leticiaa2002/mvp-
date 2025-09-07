@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Food-ID - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Bem-vindo ao Food-ID 👋</h1>
+    <p>Escolha uma funcionalidade:</p>
+
+    <div class="grid">
+      <button onclick="alert('Em breve: Busca de Estabelecimento')">🏪 Estabelecimentos Seguros</button>
+      <button onclick="carregarProdutos()">📦 Escanear Produto</button>
+      <button onclick="alert('Em breve: Delivery Seguro')">🚚 Delivery Seguro</button>
+      <button onclick="window.location.href='profile.html'">👤 Meu Perfil</button>
+            <button onclick="window.location.href='profile.html'">conteudo educativo 📚</button> 
+                  <button onclick="window.location.href='profile.html'">👨‍👩‍👦‍👦 comunidade</button> 
+    </div>
+
+    <ul id="lista-produtos"></ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

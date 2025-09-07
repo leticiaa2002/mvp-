@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Food-ID - Perfil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Meu Perfil Alimentar</h1>
+    <form id="perfilForm">
+      <label><input type="checkbox" name="restricao" value="leite"> Leite</label><br>
+      <label><input type="checkbox" name="restricao" value="gluten"> Glúten</label><br>
+      <label><input type="checkbox" name="restricao" value="castanhas"> Castanhas</label><br>
+      <label><input type="checkbox" name="restricao" value="ovos"> Ovos</label><br>
+      <label><input type="checkbox" name="restricao" value="soja"> Soja</label><br>
+      <br>
+      <button type="button" onclick="salvarPerfil()">Salvar Perfil</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
